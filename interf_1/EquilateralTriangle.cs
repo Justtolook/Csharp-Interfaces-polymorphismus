@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Annika_Interfaces
+namespace interf_1
 {
     class EquilateralTriangle : Interface1<EquilateralTriangle>
     {
@@ -34,16 +34,10 @@ namespace Annika_Interfaces
         }
 
 
-        public double Perimeter()
-        {
-            return sideLength * 3;
-        }
-
         public void W()
         {
             Console.WriteLine("EquilateralTriangle sideLength is {0}", sideLength);
             Console.WriteLine("EquilateralTriangle area is {0}", Area());
-            Console.WriteLine("EquilateralTriangle Perimeter is {0}", Perimeter());
         }
     }
 }
